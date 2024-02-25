@@ -53,7 +53,7 @@ async def yas(client, message):
     )
     
 @app.on_message(
-    command(["المطور مارو","مارو","المبرمج"])
+    command(["المطور مارو","دارك","المبرمج"])
     & filters.group
   
 )
@@ -78,19 +78,19 @@ async def yas(client, message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/e3cfca6f4e88d85e2d357.jpg",
+        photo=f"https://telegra.ph/file/3b6a14148d4f5675b442c.jpg",
         caption=f"""↯︙اهلا بك عزيزي {message.from_user.mention}\n↯︙مطورين سورس البير ميوزك""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "‹ : 𝗗𝗘𝗩 𝗔𝗹𝗯𝗲𝗮𝗿 : ›", url=f"https://t.me/O7_05"), 
+                        "‹ : 𝗗𝗘𝗩 𝐷𝐴𝑅𝐾 : ›", url=f"https://t.me/T4_Mohamed"), 
                  ],[
                     InlineKeyboardButton(
-                        "‹ : 𝗗𝗘𝗩 𝗔𝗹𝗯𝗲𝗮𝗿 : ›", url=f"https://t.me/O7_05"),
+                        "‹ :مـًٌٍّ̨̥̬̩ـمـ༈ۖ҉ـآرٍشـًٌٍّ̨̥̬̩ـمـًٌٍّ̨̥̬̩ـيلُـِـِِـِِِؤ❾ فـ༈ۖ҉ـء : ›", url=f"https://t.me/Marshmello_x_x"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ : 𝗦𝗢𝗨𝗥𝗖𝗘 𝗔𝗹𝗯𝗲𝗮𝗿 : ›", url=f"https://t.me/VIP_ALBEAR"),
+                        "‹ : 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 : ›", url=f"https://t.me/S_MA4"),
                 ],
 
             ]
@@ -116,7 +116,7 @@ async def huhh(client, message):
        [
            [
                InlineKeyboardButton(
-                   "‹ : Albear 𝖳𝖾𝖠𝗆 : ›", url=f"https://t.me/VIP_ALBEAR"),
+                   "‹ : 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 : ›", url=f"https://t.me/S_MA4"),
            ],
        ]
     ),
